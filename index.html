@@ -3,9 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
+    <script>
+        function myFunction(){
+            const array = prompt("Enter the start :");
+            if(array==="abc"){
+                document.getElementById("result").innerHTML = "My array is: "+array+"</br> The sum is : "+array+"</br>The binary of abslut element values are : "+array
+            }
+        }
+    </script>
 </head>
-<body>
-    
+<body onload="myFunction()">
+    <h1>Javascipt Homework</h1>
+    <h2>The program output</h2>
+    <div id ="result">
+       azerty
+    </div>
 </body>
 </html>
